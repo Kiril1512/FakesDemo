@@ -1,0 +1,3 @@
+C:\Github\FakesDemo\FakesDemoTests\Fakes\FakesDemo.fakes : warning : Cannot generate stub for FakesDemo.SomeInternalClass: Type is not visible to exported or assembly(FakesDemo.Fakes).
+C:\Github\FakesDemo\FakesDemoTests\Fakes\FakesDemo.fakes : warning : Cannot generate shim for FakesDemo.SomeInternalClass: Type is not visible to exported or assembly(FakesDemo.Fakes).
+C:\Github\FakesDemo\FakesDemoTests\Fakes\FakesDemo.fakes : warning : Compilation failed, retrying without Code Contracts

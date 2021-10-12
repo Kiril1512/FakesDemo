@@ -1,0 +1,8 @@
+C:\Github\FakesDemo\bin\Debug\netstandard2.1\FakesDemo.deps.json
+C:\Github\FakesDemo\bin\Debug\netstandard2.1\FakesDemo.dll
+C:\Github\FakesDemo\bin\Debug\netstandard2.1\FakesDemo.pdb
+C:\Github\FakesDemo\obj\Debug\netstandard2.1\FakesDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Github\FakesDemo\obj\Debug\netstandard2.1\FakesDemo.csproj.CoreCompileInputs.cache
+C:\Github\FakesDemo\obj\Debug\netstandard2.1\FakesDemo.dll
+C:\Github\FakesDemo\obj\Debug\netstandard2.1\FakesDemo.pdb
+C:\Github\FakesDemo\obj\Debug\netstandard2.1\FakesDemo.csproj.AssemblyReference.cache
