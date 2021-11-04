@@ -32,8 +32,8 @@
       <EmbedInteropTypes>False</EmbedInteropTypes>
       <Aliases>mqttf</Aliases>
     </Reference>
-    <Reference Include="FakesDemo">
-      <HintPath>C:\Github\FakesDemo\bin\Debug\netstandard2.1\FakesDemo.dll</HintPath>
+    <Reference Include="Castle.Core">
+      <HintPath>C:\Users\Kyrylo.Yavorenko\.nuget\packages\castle.core\4.4.0\lib\netstandard1.5\Castle.Core.dll</HintPath>
       <EmbedInteropTypes>False</EmbedInteropTypes>
     </Reference>
     <Reference Include="Microsoft.CSharp">
@@ -90,6 +90,10 @@
     </Reference>
     <Reference Include="Microsoft.Win32.Primitives">
       <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\Microsoft.Win32.Primitives.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Moq">
+      <HintPath>C:\Users\Kyrylo.Yavorenko\.nuget\packages\moq\4.16.1\lib\netstandard2.1\Moq.dll</HintPath>
       <EmbedInteropTypes>False</EmbedInteropTypes>
     </Reference>
     <Reference Include="netstandard">
@@ -708,6 +712,10 @@
   <ItemGroup />
   <ItemGroup />
   <Target Name="FakesAddAliases" BeforeTargets="ResolveReferences">
-    <ItemGroup />
+    <ItemGroup>
+      <ReferencePath Include="C:\Github\FakesDemo\bin\Debug\netstandard2.1\FakesDemo.dll">
+        <Aliases>fd</Aliases>
+      </ReferencePath>
+    </ItemGroup>
   </Target>
 </Project>

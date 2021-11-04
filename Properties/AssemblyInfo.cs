@@ -6,4 +6,8 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyDescription("Class library that contains the domain layer types.")]
 [assembly: Guid("2BE622C6-98A4-48CE-A3FB-3D8275C6577F")]
 
-[assembly: InternalsVisibleTo("FakesDemoTests, PublicKey=0024000004800000940000000602000000240000525341310004000001000100bfbbcfcfa45d349492d7a837b93e972950a9754029e1973b2f8cf38fabffba0b2380c15581b3a76d1626e4606f4c88ef2f03a0cc245e9390cd884545cf4021b6a177b6a0acef89d296adf0e2c631300b60bca05d38dcfb7318dbbcac767fd905dfdfcc05aea91a5aef718c4f9b5f2cc427671c6a4520f104f51da60f0c68e6c7", AllInternalsVisible = true)]
+// Remove the "AllInternalsVisible = true" property and it will generated the fakes and you can run the tests
+
+[assembly: InternalsVisibleTo("FakesDemoTests", AllInternalsVisible = true)]
+[assembly: InternalsVisibleTo("FakesDemo.Fakes", AllInternalsVisible = true)]
+[assembly: InternalsVisibleTo("DynamicProxyGenAssembly2", AllInternalsVisible = true)]

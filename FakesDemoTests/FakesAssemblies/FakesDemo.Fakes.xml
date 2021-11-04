@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FakesDemo.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:FakesDemo.Fakes.ShimSomeClasses">
+            <summary>Shim type of FakesDemo.SomeClasses</summary>
+        </member>
+        <member name="M:FakesDemo.Fakes.ShimSomeClasses.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FakesDemo.Fakes.ShimSomeClasses.#ctor(FakesDemo.SomeClasses)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:FakesDemo.Fakes.ShimSomeClasses.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:FakesDemo.Fakes.ShimSomeClasses.AllInstances.DoSomethingBoolean">
+            <summary>Sets the Shim of SomeClasses.DoSomething(SomeClasses this, Boolean flag)</summary>
+        </member>
+        <member name="P:FakesDemo.Fakes.ShimSomeClasses.AllInstances.InvertFlagBoolean">
+            <summary>Sets the Shim of SomeClasses.InvertFlag(SomeClasses this, Boolean flagToInvert)</summary>
+        </member>
+        <member name="P:FakesDemo.Fakes.ShimSomeClasses.AllInstances.ReturnMeSomeInt">
+            <summary>Sets the Shim of SomeClasses.ReturnMeSomeInt(SomeClasses this)</summary>
+        </member>
+        <member name="M:FakesDemo.Fakes.ShimSomeClasses.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FakesDemo.Fakes.ShimSomeClasses.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FakesDemo.Fakes.ShimSomeClasses.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FakesDemo.Fakes.ShimSomeClasses.Bind(FakesDemo.ISomeClasses)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:FakesDemo.Fakes.ShimSomeClasses.Constructor">
+            <summary>Sets the Shim of SomeClasses.SomeClasses(SomeClasses this)</summary>
+        </member>
+        <member name="P:FakesDemo.Fakes.ShimSomeClasses.DoSomethingBoolean">
+            <summary>Sets the Shim of SomeClasses.DoSomething(SomeClasses this, Boolean flag)</summary>
+        </member>
+        <member name="P:FakesDemo.Fakes.ShimSomeClasses.InvertFlagBoolean">
+            <summary>Sets the Shim of SomeClasses.InvertFlag(SomeClasses this, Boolean flagToInvert)</summary>
+        </member>
+        <member name="P:FakesDemo.Fakes.ShimSomeClasses.ReturnMeSomeInt">
+            <summary>Sets the Shim of SomeClasses.ReturnMeSomeInt(SomeClasses this)</summary>
+        </member>
+        <member name="T:FakesDemo.Fakes.ShimSomePublicClass">
+            <summary>Shim type of FakesDemo.SomePublicClass</summary>
+        </member>
+        <member name="M:FakesDemo.Fakes.ShimSomePublicClass.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FakesDemo.Fakes.ShimSomePublicClass.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FakesDemo.Fakes.ShimSomePublicClass.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FakesDemo.Fakes.ShimSomePublicClass.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FakesDemo.Fakes.ShimSomePublicClass.DoSomethingBoolean">
+            <summary>Sets the Shim of SomePublicClass.DoSomething(Boolean flag)</summary>
+        </member>
+        <member name="T:FakesDemo.Fakes.StubISomeClasses">
+            <summary>Stub type of FakesDemo.ISomeClasses</summary>
+        </member>
+        <member name="M:FakesDemo.Fakes.StubISomeClasses.#ctor">
+            <summary>Initializes a new instance of type StubISomeClasses</summary>
+        </member>
+        <member name="F:FakesDemo.Fakes.StubISomeClasses.DoSomethingBoolean">
+            <summary>Sets the stub of ISomeClasses.DoSomething(ISomeClasses this, Boolean flag)</summary>
+        </member>
+        <member name="M:FakesDemo.Fakes.StubISomeClasses.FakesDemo#ISomeClasses#DoSomething(System.Boolean)">
+            <summary>Sets the Stub of ISomeClasses.DoSomething(ISomeClasses this, Boolean flag)</summary>
+        </member>
+        <member name="M:FakesDemo.Fakes.StubISomeClasses.FakesDemo#ISomeClasses#InvertFlag(System.Boolean)">
+            <summary>Sets the Stub of ISomeClasses.InvertFlag(ISomeClasses this, Boolean flagToInvert)</summary>
+        </member>
+        <member name="M:FakesDemo.Fakes.StubISomeClasses.FakesDemo#ISomeClasses#ReturnMeSomeInt">
+            <summary>Sets the Stub of ISomeClasses.ReturnMeSomeInt(ISomeClasses this)</summary>
+        </member>
+        <member name="F:FakesDemo.Fakes.StubISomeClasses.InvertFlagBoolean">
+            <summary>Sets the stub of ISomeClasses.InvertFlag(ISomeClasses this, Boolean flagToInvert)</summary>
+        </member>
+        <member name="F:FakesDemo.Fakes.StubISomeClasses.ReturnMeSomeInt">
+            <summary>Sets the stub of ISomeClasses.ReturnMeSomeInt(ISomeClasses this)</summary>
+        </member>
+        <member name="T:FakesDemo.Fakes.StubSomeClasses">
+            <summary>Stub type of FakesDemo.SomeClasses</summary>
+        </member>
+        <member name="M:FakesDemo.Fakes.StubSomeClasses.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:FakesDemo.Fakes.StubSomeClasses.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:FakesDemo.Fakes.StubSomeClasses.InitializeStub">
+            <summary>Initializes a new instance of type StubSomeClasses</summary>
+        </member>
+        <member name="P:FakesDemo.Fakes.StubSomeClasses.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:FakesDemo.Fakes.StubSomeClasses.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>

@@ -36,6 +36,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://nuget.primaverabss.com:82/nuget/_external_devexpress": {},
         "http://nuget.primaverabss.com:82/nuget/_external_public-telerik/": {},
         "http://nuget.primaverabss.com:82/nuget/private-elevation-cl5/": {},
         "http://nuget.primaverabss.com:82/nuget/private-elevation-fw5/": {},
@@ -73,7 +74,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
